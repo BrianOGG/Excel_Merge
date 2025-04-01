@@ -37,7 +37,7 @@ def merge_excel_files():
 
         # 设置读取引擎
         engine_map = {
-            '.xls': 'xlrd',
+            '.xls': 'openpyxl',
             '.xlsx': 'openpyxl',
             '.xlsm': 'openpyxl'
         }
